@@ -23,10 +23,9 @@ body {
 /* LOGO */
 .logo {
   padding-left: 50px;
-  position: relative;
 }
 
-nav {
+.nav {
   position: relative;
   right: 50px;
   display: flex;
@@ -43,12 +42,6 @@ nav {
   padding: 0;
 }
 
-.nav-item a {
-  display: flex;
-  align-items: center;
-  height: 60px;
-}
-
 /* no margin before first and after last */
 .nav-item:not(:last-child) {
   margin-right: 20px;
@@ -56,6 +49,7 @@ nav {
 
 /* LINKS */
 .nav-link {
+  display: flex;
   text-decoration: none;
   color: black;
   height: 60px;
