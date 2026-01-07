@@ -18,13 +18,11 @@ body {
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  height: 60px;
 }
 
 /* LOGO */
 .logo {
-  display: flex;
-  left: 50px;
+  padding-left: 50px;
   position: relative;
 }
 
@@ -75,7 +73,7 @@ nav {
   color: var(--blue);
 }
 
-a.is-active::after {
+.is-active::after {
   content: '';
   position: absolute;
   left: 0;
